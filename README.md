@@ -80,25 +80,7 @@ xvi) Number of coins in circulation
 The Random Forest algorithm is an algorithm that makes the use of decision trees. Decision tree is a learning method to predict classification and regression. The Random Forest Algorithm is composed of different decision trees, to predict classification and regression. It merges the decisions of multiple decision trees in order to find an answer, which, in case of classification, is taking the majority of the votes and giving the classification and, in case of regression, is taking the average of the predicted values by the decision trees. The random forest algorithm is a supervised learning model; it uses labeled data to “learn” how to classify unlabeled data.
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-                                                  
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
+<img width="1199" alt="image" src="https://user-images.githubusercontent.com/62089940/171199573-1230320d-ff2c-46d3-9958-03239acadd71.png">
 
 
 Either the Gini impurity or the Entropy is calculated of each branch on a node. This impurity or entropy can be used to determine which branch is most likely to occur. Here, pi represents the relative frequency of the class you are observing in the dataset. MSE stands for the Mean Squared Error which calculates the distance of each node from the predicted actual value (error calculation), helping to decide which branch is the better decision for your forest.
@@ -113,13 +95,7 @@ The Dummy Regressor is a kind of Regressor that gives predictions based on simpl
 
 Linear Regression is a supervised machine learning algorithm. It performs regression tasks. Regression models a target prediction value based on independent variables. The most common use of Linear Regression involves finding out the relationship between variables and forecasting. Different regression models differ based on – the kind of relationship between dependent and independent variables they are considering and the number of independent variables being used. 
 
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image7.png "image_tooltip")
-
+<img width="760" alt="image" src="https://user-images.githubusercontent.com/62089940/171199997-c5bd11ca-3242-4314-9d3e-2550e9b07a0c.png">
 
 
 ### Support Vector Regression
@@ -139,14 +115,7 @@ AdaBoost also called Adaptive Boosting is a technique in Machine Learning used a
 
 Algorithm for Adaboost: 
 
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image8.png "image_tooltip")
-
-
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/62089940/171200422-27f664c5-41e2-4c5c-83b6-48002dd38164.png">
 
 ### XGBoost
 
@@ -159,15 +128,8 @@ Since there was no proper dataset for the experimentation we had to create our o
 
 
 ### Final Dataset  
-
-
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image9.png "image_tooltip")
-    
-
+ 
+<img width="1240" alt="image" src="https://user-images.githubusercontent.com/62089940/171200598-bd92e013-4ec9-466f-b118-f21a9d45dacb.png">
 
 ### Features 
 
@@ -195,36 +157,6 @@ sma30 closing_price : Price of the bitcoin at the end of the business day taken 
 
 Next_day_closing_price : Price of the bitcoin at the end of the next business day. This is the field we have to predict 
 
-
-### Performance metrics 
-
-As the target variable is highly volatile, we want to penalize the model when the error is higher. Root Mean Squared Error (RMSE) squares the errors before averaging, and thus RMSE gives a relatively high weight to large errors. We have also considered Mean Absolute Error (MAE) because of its easy interpretability.
-
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image10.png "image_tooltip")
-
-
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image11.png "image_tooltip")
-
-
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image12.png "image_tooltip")
-
-
-
 ### Training Method 
 
 The target variable is highly volatile where prices are ranging from 100 USD to 63500 USD. Initially, we tried with time series split cross-validation, and random split cross-validation, but the results were mostly overfitting.
@@ -239,23 +171,11 @@ Thus, we decided to create multiple splits and train models for each split separ
 
 Results of Test Data
 
-
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image13.png "image_tooltip")
-
+<img width="1176" alt="image" src="https://user-images.githubusercontent.com/62089940/171201002-de3aca2a-68af-4ac5-b305-ea9db49a31d2.png">
 
 Model metrics 
 
-
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
-
+<img width="418" alt="image" src="https://user-images.githubusercontent.com/62089940/171201058-17c5655d-ae9f-419a-895c-e3fb970830a1.png">
 
 This is just the baseline model, so the results will not be as well as other models.
 
@@ -264,23 +184,11 @@ This is just the baseline model, so the results will not be as well as other mod
 
 Results on Test Data
 
-
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.png "image_tooltip")
-
+<img width="1151" alt="image" src="https://user-images.githubusercontent.com/62089940/171201151-b0f8bbc3-eeb6-4fff-8b84-876054785cc2.png">
 
 Model metrics 
 
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.png "image_tooltip")
-
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/62089940/171201196-4d411e95-1588-480b-8730-90636a9e857c.png">
 
 Similar to Linear Regression, SVR also is able to predict good results and capture the trend, even when there is a sudden spike in prices.
 
@@ -289,23 +197,11 @@ Similar to Linear Regression, SVR also is able to predict good results and captu
 
 Results on Test Data
 
-
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.png "image_tooltip")
-
+<img width="1156" alt="image" src="https://user-images.githubusercontent.com/62089940/171201481-b712b55c-1142-41ee-b447-3bda1925f6ec.png">
 
 Model metrics 
 
-
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.png "image_tooltip")
-
+<img width="414" alt="image" src="https://user-images.githubusercontent.com/62089940/171201530-228149dc-859a-4827-8f5a-a54068567636.png">
 
 AdaBoost is highly overfitting. We can observe that when there is a sudden spike in prices, It predicts unsatisfactory results
 
@@ -314,23 +210,11 @@ AdaBoost is highly overfitting. We can observe that when there is a sudden spike
 
 Results on Test Data
 
-
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.png "image_tooltip")
-
+<img width="1151" alt="image" src="https://user-images.githubusercontent.com/62089940/171201606-7a63daa6-065c-4cf3-b68c-a86223529c0d.png">
 
 Model metrics 
 
-
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.png "image_tooltip")
-
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/62089940/171201678-adc6d787-4404-462f-a901-f5f4b9602d0b.png">
 
 Similar to Adaboost, XGBoost is also highly overfitting. We can observe that when there is a sudden spike in prices, it predicts unsatisfactory results
 
@@ -339,23 +223,11 @@ Similar to Adaboost, XGBoost is also highly overfitting. We can observe that whe
 
 Results on Test Data
 
-
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.png "image_tooltip")
-
+<img width="1154" alt="image" src="https://user-images.githubusercontent.com/62089940/171201729-9359e107-9c65-4920-8add-d7bac8469588.png">
 
 Model metrics 
 
-
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.png "image_tooltip")
-
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/62089940/171201768-f2424580-cda5-4bdc-8750-92ba0f970b33.png">
 
 This model performs significantly better than SVR and XGBoost. As observed earlier in correlation, there was a very good linear relationship between some features and target variable. This ultimately has made linear models like SVR & Linear regression fit a good hyperplane on data.
 
